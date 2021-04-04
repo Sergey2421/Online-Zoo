@@ -1,0 +1,37 @@
+.header {
+  background: rgba(252, 252, 252, 0.02);
+  border: 2px solid #F0F0F0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 75vw;
+  padding: 0 92px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  list-style-type: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: darkblue;
+}
+
+.nav_link {
+  width: 70%;
+}
+
+.nav_link + div {
+  align-items: center;
+}
+
+.user {
+  width: 52px;
+}
