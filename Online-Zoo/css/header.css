@@ -6,8 +6,9 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 75vw;
-  padding: 0 92px;
+  width: 1710px;
+  height: 90px;
+  padding: 0 92px 0 184px;
 }
 
 .menu {
@@ -22,10 +23,15 @@
 .menu a {
   text-decoration: none;
   color: darkblue;
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 154%;
 }
 
-.nav_link {
-  width: 70%;
+.nav_menu {
+  width: 800px;
 }
 
 .nav_link + div {
