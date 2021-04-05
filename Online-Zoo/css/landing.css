@@ -1,0 +1,119 @@
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.first_screen {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 699px;
+  height: 493px;
+}
+
+.first_screen h2 {
+  margin: 0;
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.115em;
+  color: #626262;
+}
+
+.first_screen p {
+  margin: 0;
+  font-family: Merriweather, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 84px;
+  line-height: 106px;
+  color: #080029;
+}
+
+.panda_img {
+  height: 673px;
+}
+
+.btn_choose:hover {
+  cursor: pointer;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+  width: 250px;
+  height: 61px;
+  border: 2px solid #080029;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: transparent;
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #080029;
+}
+
+.btn_choose, .btn_choose:active {
+  width: 250px;
+  height: 61px;
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  background: #080029;
+  border-radius: 5px;
+  border-color: #080029;
+  color: white;
+}
+
+.btn_watch:hover {
+  cursor: pointer;
+  width: 261px;
+  height: 61px;
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  background: #080029;
+  border-radius: 5px;
+  border-color: #080029;
+  color: white;
+}
+
+.btn_watch, .btn_watch:active {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+  width: 261px;
+  height: 61px;
+  border: 2px solid #080029;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: transparent;
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #080029;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 573px;
+}
