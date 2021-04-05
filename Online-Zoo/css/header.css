@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
   width: 93.75vw;
-  min-height: 90px;
+  height: 90px;
   padding: 0 92px 0 184px;
 }
 
@@ -44,4 +44,8 @@
 
 .user img {
   width: 52px;
+}
+
+.h1 {
+  display: none;
 }

@@ -9,3 +9,8 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
+.active {
+  font-weight: bolder !important;
+  cursor: default !important;
+}

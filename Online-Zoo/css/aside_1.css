@@ -1,5 +1,11 @@
 .logo {
-  width: 40px;
+  width: 52px;
+}
+
+.border {
+  margin-top: 23px;
+  width: 90px;
+  border-top: 2px solid #F0F0F0;;
 }
 
 .arrow {
@@ -14,14 +20,14 @@
   left: 3.125vw;
   width: 90px;
   height: 760px;
-  background: rgba(252, 252, 252, 0.02);
+  background: rgb(252, 252, 252);
   border: 2px solid #F0F0F0;
   box-sizing: border-box;
-  padding: 25px 0 100px 0;
+  padding: 23px 0 100px 0;
 }
 
 .nav_side {
-  margin-top: 275px;
+  margin-top: 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
