@@ -6,8 +6,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 1710px;
-  height: 90px;
+  width: 93.75vw;
+  min-height: 90px;
   padding: 0 92px 0 184px;
 }
 
@@ -39,5 +39,9 @@
 }
 
 .user {
+  height: 52px;
+}
+
+.user img {
   width: 52px;
 }
