@@ -437,7 +437,38 @@
   display: none;
 }
 
+.btns_span_plus {
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 145%;
+  text-align: center;
+  color: #FCFCFC;
+  opacity: 0.8;
+}
+
+.btns_span_text {
+  display: none;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 76px;
+  height: 76px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  outline: none;
+  border-radius: 100%;
+}
+
 .ac1:hover > .names {
+  display: none;
+}
+
+.ac1:hover .btns_span_plus {
   display: none;
 }
 
@@ -452,7 +483,33 @@
   color: #FCFCFC;
 }
 
+.ac1:hover .btns_span_text {
+  display: inline;
+  width: 189px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 154%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FCFCFC;
+}
+
+.ac1:hover .btns {
+  width: 238px;
+  height: 238px;
+  background: rgba(11, 11, 11, 0.1);
+  border: 2px solid rgba(252, 252, 252, 0.3);
+  box-sizing: border-box;
+}
+
 .ac2:hover > .names {
+  display: none;
+}
+
+.ac2:hover .btns_span_plus {
   display: none;
 }
 
@@ -467,7 +524,33 @@
   color: #FCFCFC;
 }
 
+.ac2:hover .btns_span_text {
+  display: inline;
+  width: 189px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 154%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FCFCFC;
+}
+
+.ac2:hover .btns {
+  width: 238px;
+  height: 238px;
+  background: rgba(11, 11, 11, 0.1);
+  border: 2px solid rgba(252, 252, 252, 0.3);
+  box-sizing: border-box;
+}
+
 .ac3:hover > .names {
+  display: none;
+}
+
+.ac3:hover .btns_span_plus {
   display: none;
 }
 
@@ -482,7 +565,33 @@
   color: #FCFCFC;
 }
 
+.ac3:hover .btns_span_text {
+  display: inline;
+  width: 189px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 154%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FCFCFC;
+}
+
+.ac3:hover .btns {
+  width: 238px;
+  height: 238px;
+  background: rgba(11, 11, 11, 0.1);
+  border: 2px solid rgba(252, 252, 252, 0.3);
+  box-sizing: border-box;
+}
+
 .ac4:hover > .names {
+  display: none;
+}
+
+.ac4:hover .btns_span_plus {
   display: none;
 }
 
@@ -497,7 +606,33 @@
   color: #FCFCFC;
 }
 
+.ac4:hover .btns_span_text {
+  display: inline;
+  width: 189px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 154%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FCFCFC;
+}
+
+.ac4:hover .btns {
+  width: 238px;
+  height: 238px;
+  background: rgba(11, 11, 11, 0.1);
+  border: 2px solid rgba(252, 252, 252, 0.3);
+  box-sizing: border-box;
+}
+
 .ac5:hover > .names {
+  display: none;
+}
+
+.ac5:hover .btns_span_plus {
   display: none;
 }
 
@@ -512,7 +647,33 @@
   color: #FCFCFC;
 }
 
+.ac5:hover .btns_span_text {
+  display: inline;
+  width: 189px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 154%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FCFCFC;
+}
+
+.ac5:hover .btns {
+  width: 238px;
+  height: 238px;
+  background: rgba(11, 11, 11, 0.1);
+  border: 2px solid rgba(252, 252, 252, 0.3);
+  box-sizing: border-box;
+}
+
 .ac6:hover > .names {
+  display: none;
+}
+
+.ac6:hover .btns_span_plus {
   display: none;
 }
 
@@ -525,4 +686,33 @@
   line-height: 21px;
   text-align: center;
   color: #FCFCFC;
+}
+
+.ac6:hover .btns_span_text {
+  display: inline;
+  width: 189px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 154%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FCFCFC;
+}
+
+.ac6:hover .btns {
+  width: 238px;
+  height: 238px;
+  background: rgba(11, 11, 11, 0.1);
+  border: 2px solid rgba(252, 252, 252, 0.3);
+  box-sizing: border-box;
+}
+
+.picture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
