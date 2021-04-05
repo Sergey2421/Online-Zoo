@@ -238,35 +238,51 @@
 
 .try:hover {
   cursor: pointer;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
   width: 218px;
   height: 61px;
-  border: 2px solid #0F0049;
+  border: 2px solid #080029;
   box-sizing: border-box;
   border-radius: 5px;
-  background-color: transparent;
+  background-color: #080029;
   font-family: Rubik, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
-  color: #0F0049;
+  color: #FCFCFC;
 }
 
-.try, .try:active {
+.try:active {
+  outline: none;
+  outline: none;
+  width: 218px;
+  height: 61px;
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  background: #150068;
+  border-radius: 5px;
+  border-color: #150068;
+  color: #FCFCFC;
+}
+
+.try {
   margin-top: 60px;
   width: 218px;
   height: 61px;
-  background: #0F0049;
-  border-color: #0F0049;
-  border-radius: 5px;
   font-family: Rubik, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
+  background: #0F0049;
+  border-radius: 5px;
+  border-color: #0F0049;
   color: #FCFCFC;
 }
 
