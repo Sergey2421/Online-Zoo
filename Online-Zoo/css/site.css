@@ -1,0 +1,11 @@
+body {
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 100vw;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
