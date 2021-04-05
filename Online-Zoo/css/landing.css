@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  min-height: 755px;
+  height: 755px;
 }
 
 .watch {
@@ -164,7 +164,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  min-height: 980px;
+  height: 980px;
 }
 
 .empty2 {
@@ -197,8 +197,11 @@
   margin-top: 249px;
 }
 
-.title {
-  margin: 0;
+.mt-0 {
+  margin-top: 0;
+}
+
+.font_text_title {
   font-family: Rubik, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -214,17 +217,11 @@
   font-weight: bold;
   font-size: 36px;
   line-height: 145%;
-}
-
-.title2 {
-  margin-top: 50px;
-  margin-bottom: 0;
   color: #080029;
 }
 
-.title3 {
+.mt-40 {
   margin-top: 40px;
-  margin-bottom: 0;
 }
 
 .description {
@@ -286,10 +283,18 @@
   color: #FCFCFC;
 }
 
+.third {
+  display: flex;
+  width: 1920px;
+  background: #D9E8FF;
+  justify-content: center;
+}
+
 .third_screen {
   display: flex;
   flex-direction: row;
-  background: #D9E8FF;
+  justify-content: center;
+  height: 896px;
 }
 
 .pets {
@@ -299,6 +304,18 @@
   width: 326px;
   height: 364px;
   margin-top: 305px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mt-55 {
+  margin-top: 55px;
+}
+
+.mb-0 {
+  margin-bottom: 0;
 }
 
 .slide {
@@ -331,4 +348,181 @@
 .slide_btns {
   height: 65px;
   width: 155px;
+}
+
+.pictures {
+  margin-left: 44px;
+  margin-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+  width: 1064px;
+}
+
+.ac1, .ac2, .ac3, .ac4, .ac5, .ac6 {
+  width: 328px;
+  height: 328px;
+  border-radius: 5px;
+}
+
+.ac1 {
+  background-image: url("assets/ac1.png");
+}
+
+.ac1:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("assets/ac1.png");
+  filter: blur(1px);
+}
+
+.ac2 {
+  background-image: url("assets/ac2.png");
+}
+
+.ac2:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("assets/ac2.png");
+  filter: blur(1px);
+}
+
+.ac3 {
+  background-image: url("assets/ac3.png");
+}
+
+.ac3:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("assets/ac3.png");
+  filter: blur(1px);
+}
+
+.ac4 {
+  background-image: url("assets/ac4.png");
+}
+
+.ac4:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("assets/ac4.png");
+  filter: blur(1px);
+}
+
+.ac5 {
+  background-image: url("assets/ac5.png");
+}
+
+.ac5:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("assets/ac5.png");
+  filter: blur(1px);
+}
+
+.ac6 {
+  background-image: url("assets/ac6.png");
+}
+
+.ac6:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("assets/ac6.png");
+  filter: blur(1px);
+}
+
+.names {
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FCFCFC;
+  opacity: 0.8;
+}
+
+.follow {
+  display: none;
+}
+
+.ac1:hover > .names {
+  display: none;
+}
+
+.ac1:hover > .follow {
+  display: block;
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FCFCFC;
+}
+
+.ac2:hover > .names {
+  display: none;
+}
+
+.ac2:hover > .follow {
+  display: block;
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FCFCFC;
+}
+
+.ac3:hover > .names {
+  display: none;
+}
+
+.ac3:hover > .follow {
+  display: block;
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FCFCFC;
+}
+
+.ac4:hover > .names {
+  display: none;
+}
+
+.ac4:hover > .follow {
+  display: block;
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FCFCFC;
+}
+
+.ac5:hover > .names {
+  display: none;
+}
+
+.ac5:hover > .follow {
+  display: block;
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FCFCFC;
+}
+
+.ac6:hover > .names {
+  display: none;
+}
+
+.ac6:hover > .follow {
+  display: block;
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FCFCFC;
 }
