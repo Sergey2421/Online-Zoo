@@ -486,7 +486,7 @@
 .ac1:hover .btns_span_text {
   display: inline;
   width: 189px;
-  font-family: Rubik;
+  font-family: Rubik, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -527,7 +527,7 @@
 .ac2:hover .btns_span_text {
   display: inline;
   width: 189px;
-  font-family: Rubik;
+  font-family: Rubik, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -568,7 +568,7 @@
 .ac3:hover .btns_span_text {
   display: inline;
   width: 189px;
-  font-family: Rubik;
+  font-family: Rubik, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -609,7 +609,7 @@
 .ac4:hover .btns_span_text {
   display: inline;
   width: 189px;
-  font-family: Rubik;
+  font-family: Rubik, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -650,7 +650,7 @@
 .ac5:hover .btns_span_text {
   display: inline;
   width: 189px;
-  font-family: Rubik;
+  font-family: Rubik, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -691,7 +691,7 @@
 .ac6:hover .btns_span_text {
   display: inline;
   width: 189px;
-  font-family: Rubik;
+  font-family: Rubik, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -715,4 +715,112 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+}
+
+.logo-chb {
+  width: 153px;
+  height: 117px;
+}
+
+.h117 {
+  height: 117px;
+}
+
+.h2_foot {
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.115em;
+  color: #FCFCFC;
+}
+
+.foot_nav {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.p_nav {
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 154%;
+  color: #BCBCBC;
+  text-decoration: none;
+}
+
+.footer {
+  background: #0B0B0B;
+  width: 1920px;
+  height: 766px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row {
+  margin-top: 100px;
+  width: 1434px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  margin-top: 150px;
+  width: 1434px;
+  height: 132px;
+  border-top: 1px solid #747474;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.p_copyright {
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 145%;
+  color: #BCBCBC;
+}
+
+.sup {
+  display: flex;
+  flex-direction: column;
+  width: 399px;
+}
+
+.donate {
+  width: 339px;
+  height: 61px;
+  border: 2px solid #FCFCFC;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: transparent;
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FCFCFC;
+  outline: none;
+}
+
+.donate:hover {
+  background: #150068;
+  cursor: pointer;
+}
+
+.foor_link {
+  width: 303px;
 }
