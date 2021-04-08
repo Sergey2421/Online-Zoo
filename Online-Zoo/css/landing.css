@@ -367,10 +367,8 @@
 }
 
 .div_img {
-  overflow: hidden;
   width: 328px;
   height: 328px;
-  border-radius: 5px;
 }
 
 .backgrounds {
@@ -382,6 +380,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .picture:hover .backgrounds{
@@ -403,8 +402,15 @@
 }
 
 .follow {
-  display: none;
- /*opacity: 0;*/
+  position: absolute;
+  opacity: 0;
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FCFCFC;
 }
 
 .btns_span_plus {
@@ -419,8 +425,16 @@
 }
 
 .btns_span_text {
-  display: none;
-  /*opacity: 0;*/
+  position: absolute;
+  opacity: 0;
+  width: 189px;
+  font-size: 18px;
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 154%;
+  text-align: center;
+  color: #FCFCFC;
 }
 
 .btns {
@@ -444,9 +458,10 @@
 }
 
 .picture:hover .follow {
+  position: static;
   display: block;
-  /*opacity: 1;
-  transition: opacity 0.3s;*/
+  opacity: 1;
+  transition: opacity 0.5s;
   font-family: Rubik, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -457,9 +472,10 @@
 }
 
 .picture:hover .btns_span_text {
+  position: static;
   display: inline;
-  /*opacity: 1;
-  transition: opacity 0.3s;*/
+  opacity: 1;
+  transition: opacity 0.5s;
   width: 189px;
   font-family: Rubik, sans-serif;
   font-style: normal;
@@ -484,6 +500,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+  overflow: hidden;
+  border-radius: 5px;
 }
 
 .logo-chb {
