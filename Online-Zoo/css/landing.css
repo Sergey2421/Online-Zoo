@@ -224,11 +224,19 @@
   margin-top: 40px;
 }
 
+.mt-41 {
+  margin-top: 41px;
+}
+
+.mt-47 {
+  margin-top: 47px;
+}
+
 .description {
   font-family: Rubik, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 18.5px;
   line-height: 154%;
   color: #747474;
 }
@@ -329,11 +337,11 @@
 
 .slide:hover, .slide:active {
   cursor: pointer;
-  box-shadow: 0 0 15px yellowgreen;
+  box-shadow: 0 0 15px deepskyblue;
   padding: 0;
   width: 65px;
   height: 65px;
-  background: yellowgreen;
+  background: deepskyblue;
   border-radius: 50%;
   border: none;
   box-sizing: border-box;
@@ -704,9 +712,11 @@
 }
 
 .fourth_screen {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 1434px;
+  height: 1300px;
 }
 
 .fourth_screen h2 {
@@ -753,8 +763,17 @@
   margin-left: 184px;
 }
 
+.ml-736 {
+  margin-left: 736px;
+}
+
+
 .mt-100 {
   margin-top: 100px;
+}
+
+.mt-104 {
+  margin-top: 104px;
 }
 
 .mb-20 {
@@ -763,4 +782,24 @@
 
 .mt-14 {
   margin-top: 14px;
+}
+
+.vector {
+  position: absolute;
+  left: 658px;
+  top: 414px;
+  width: 197px;
+  height: 97px;
+}
+
+.vector_2 {
+  position: absolute;
+  left: 469.5px;
+  top: 674.5px;
+  width: 240.5px;
+  height: 194.5px;
+}
+
+.mt-60 {
+  margin-top: 60px;
 }
