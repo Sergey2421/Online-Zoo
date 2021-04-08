@@ -367,8 +367,10 @@
 }
 
 .div_img {
+  overflow: hidden;
   width: 328px;
   height: 328px;
+  border-radius: 5px;
 }
 
 .backgrounds {
@@ -383,6 +385,8 @@
 }
 
 .picture:hover .backgrounds{
+  transform: scale(1.1);
+  transition: transform 0.3s;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15));
   filter: blur(1px);
 }
@@ -400,7 +404,7 @@
 
 .follow {
   display: none;
-  opacity: 0;
+ /*opacity: 0;*/
 }
 
 .btns_span_plus {
@@ -416,7 +420,7 @@
 
 .btns_span_text {
   display: none;
-  opacity: 0;
+  /*opacity: 0;*/
 }
 
 .btns {
@@ -441,8 +445,8 @@
 
 .picture:hover .follow {
   display: block;
-  opacity: 1;
-  transition: opacity 1s;
+  /*opacity: 1;
+  transition: opacity 0.3s;*/
   font-family: Rubik, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -454,8 +458,8 @@
 
 .picture:hover .btns_span_text {
   display: inline;
-  opacity: 1;
-  transition: opacity 1s;
+  /*opacity: 1;
+  transition: opacity 0.3s;*/
   width: 189px;
   font-family: Rubik, sans-serif;
   font-style: normal;
@@ -467,7 +471,7 @@
 }
 
 .picture:hover .btns {
-  transition: all 0.2s;
+  transition: all 0.3s;
   width: 238px;
   height: 238px;
   background: rgba(11, 11, 11, 0.1);
