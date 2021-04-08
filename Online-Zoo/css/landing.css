@@ -324,14 +324,16 @@
   background: #D9E8FF;
   border: none;
   box-sizing: border-box;
-}
-.slide:active, .slide:focus, .slide:hover {
-  cursor: pointer;
   outline: none;
+}
+.slide:hover, .slide:active {
+  cursor: pointer;
+  box-shadow: 0 0 15px yellowgreen;
   padding: 0;
   width: 65px;
   height: 65px;
-  background: #D9E8FF;
+  background: yellowgreen;
+  border-radius: 50%;
   border: none;
   box-sizing: border-box;
 }

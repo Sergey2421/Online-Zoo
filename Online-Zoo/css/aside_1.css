@@ -42,4 +42,12 @@
 .div_arrow {
   margin-top: 100px;
   height: 48px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.div_arrow:hover, .div_arrow:active {
+  background: lightgray;
+  box-shadow: 0 0 5px lightgray;
 }
