@@ -956,6 +956,10 @@
   background: #FCFCFC;
 }
 
+.slide_review:hover {
+  background: deepskyblue;
+}
+
 .span {
   height: 42px;
   font-size: 33px;
