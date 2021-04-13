@@ -1075,6 +1075,7 @@
   filter: drop-shadow(1px 12px 20px rgba(0, 0, 0, 0.17));
   width: 100%;
   overflow: visible;
+  transition: transform 0.25s ;
 }
 
 .mark-crocodile {
@@ -1099,6 +1100,7 @@
 
 .markers:hover {
   transform: scale(1.392) translateY(-17.5px);
+  transition: transform 0.25s ;
   cursor: pointer;
 }
 
@@ -1109,6 +1111,7 @@
 
 .active {
   transform: scale(1.392) translateY(-17.5px);
+  transition: transform 0.25s ;
   cursor: pointer;
 }
 
