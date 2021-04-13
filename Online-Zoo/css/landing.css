@@ -738,6 +738,10 @@
   color: #0F0049;
 }
 
+.color-darkblue2 {
+  color: #080029;
+}
+
 .ml-184 {
   margin-left: 184px;
 }
@@ -957,4 +961,154 @@
   font-size: 33px;
   display: flex;
   justify-content: center;
+}
+
+.sixth_section {
+  background: #FCFCFC;
+}
+
+.h-862 {
+  height: 862px;
+}
+
+.ml-244 {
+  margin-left: 244px;
+}
+
+.flex_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.color-black {
+  color: black;
+}
+
+.eagle {
+  width: 344px;
+  height: 218px;
+}
+
+.box {
+  box-shadow: 4px 12px 22px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.watch_now {
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #3888FF;
+  text-decoration: none;
+}
+
+.watch_now span {
+  font-size: 22px;
+}
+
+.text_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.w-264 {
+  width: 264px;
+}
+
+.mt-52 {
+  margin-top: 52px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.p_map {
+  text-align: center;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.w-1223 {
+  width: 1223px;
+}
+
+.h-700 {
+  height: 700px;
+}
+
+.zoomap {
+  position: relative;
+}
+
+.map {
+  width: 100%;
+}
+
+.ml-24 {
+  margin-left: 24px;
+}
+
+.marks {
+  position: absolute;
+  width: 69px;
+  height: 89px;
+}
+
+.markers {
+  filter: drop-shadow(1px 12px 20px rgba(0, 0, 0, 0.17));
+  width: 100%;
+  overflow: visible;
+}
+
+.mark-crocodile {
+  left: 273px;
+  top: 216px;
+}
+
+.mark-eagle {
+  left: 143px;
+  top: 199px;
+}
+
+.mark-gorilla {
+  left: 591px;
+  top: 343px;
+}
+
+.mark-panda {
+  left: 909px;
+  top: 204px;
+}
+
+.markers:hover {
+  transform: scale(1.392) translateY(-17.5px);
+  cursor: pointer;
+}
+
+.markers:hover .stroke {
+  stroke: #3888FF;
+  stroke-width: 2px;
+}
+
+.active {
+  transform: scale(1.392) translateY(-17.5px);
+  cursor: pointer;
+}
+
+.active .stroke{
+  stroke: #3888FF;
+  stroke-width: 2px;
 }
