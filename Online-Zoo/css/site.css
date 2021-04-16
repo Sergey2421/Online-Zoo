@@ -25,7 +25,7 @@ body {
   align-items: center;
 }
 
-.active {
+.active_site {
   font-weight: bolder !important;
   cursor: default !important;
 }
