@@ -353,7 +353,6 @@ body {
 
 .slide:hover, .slide:active {
   cursor: pointer;
-  box-shadow: 0 0 15px deepskyblue;
   background-color: deepskyblue;
   border-radius: 50%;
 }
