@@ -337,7 +337,7 @@ body {
 
 }
 
-@media screen and (max-width: 640px) and (min-width: 321px) {
+@media screen and (max-device-width: 640px) and (min-device-width: 321px), screen and (max-width: 640px) and (min-width: 321px) {
 
   .M-normal-bold-36-145-c {
     font-size: 26px;
