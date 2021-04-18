@@ -303,3 +303,125 @@
   }
 
 }
+
+@media screen and (max-width: 640px) and (min-width: 321px) {
+
+  .fs-185_ln-154 {
+    font-size: 16px;
+  }
+
+  .footer {
+    width: 640px;
+    height: 700px;
+  }
+
+  .p_copyright {
+    font-size: 14px;
+  }
+
+  .w-1434 {
+    width: 600px;
+  }
+
+  .h-132 {
+    height: 60px;
+  }
+
+  .mt-150 {
+    margin-top: 60px;
+  }
+
+  .w-303 {
+    width: 474px;
+  }
+
+  .w-153 {
+    width: 95px;
+  }
+
+  .h-117 {
+    height: 74px;
+  }
+
+  .mt-192 {
+    margin-top: 103px;
+  }
+
+  .foot_up {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .school {
+    margin-top: 0;
+    width: 264px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logos {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+
+  .w-118 {
+    width: 93px;
+  }
+
+  .h-62 {
+    height: 49px;
+  }
+
+  .w-128 {
+    width: 102px;
+  }
+
+  .a_sup {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .foot_nav {
+    width: 133px;
+    margin-top: 60px;
+  }
+
+  .links {
+    margin-top: 50px;
+    width: 390px;
+  }
+
+  .sup {
+    margin-top: 60px;
+  }
+
+  .a_nav {
+    font-size: 16px;
+    height: 25px;
+  }
+
+  .donate {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .w-339 {
+    width: 318px;
+  }
+
+  .h-61 {
+    height: 59px;
+  }
+
+  .mt-43 {
+    margin-top: 30px;
+  }
+
+}

@@ -42,6 +42,15 @@ body {
 
   body {
     overflow-x: hidden;
+    margin-top: 22px;
+  }
+
+}
+
+@media screen and (max-width: 640px) and (min-width: 321px) {
+
+  body {
+    margin-top: 0;
   }
 
 }
