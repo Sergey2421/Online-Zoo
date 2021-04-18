@@ -1,8 +1,8 @@
 body {
   margin: 0 auto;
-  overflow-x: hidden;
   margin-top: 25px;
   width: 100vw;
+  display: flex;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -28,4 +28,20 @@ body {
 .active_site {
   font-weight: bolder !important;
   cursor: default !important;
+}
+
+@media screen and (min-width: 1800px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+}
+
+@media screen and (min-width: 1170px) and (max-width: 1200px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
 }

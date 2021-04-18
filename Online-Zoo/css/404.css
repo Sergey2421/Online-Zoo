@@ -7,8 +7,9 @@ body {
 }
 
 .header {
+  margin: auto;
   background: rgba(252, 252, 252, 0.02);
-  width: 93.75vw;
+  width: 1800px;
   height: 90px;
   background: #FCFCFC;
 }
@@ -44,11 +45,11 @@ body {
 }
 
 .user {
-  height: 52px;
+  width: 52px;
 }
 
-.user img {
-  width: 52px;
+.h-52 {
+  height: 52px;
 }
 
 .nav_menu {
@@ -56,7 +57,7 @@ body {
 }
 
 .main {
-  width: 100vw;
+  width: 1920px;
   background: #FCFCFC;
 }
 
@@ -122,10 +123,16 @@ body {
   color: #FCFCFC;
 }
 
+.w-309 {
+  width: 309px;
+}
+
+.h-61 {
+  height: 61px;
+}
+
 .back:hover {
   cursor: pointer;
-  width: 309px;
-  height: 61px;
   background: #080029;
   border-radius: 5px;
   border: #080029;
@@ -134,8 +141,6 @@ body {
 
 .back:active {
   cursor: pointer;
-  width: 309px;
-  height: 61px;
   background: #150068;
   border-radius: 5px;
   border: #150068;
@@ -143,8 +148,6 @@ body {
 }
 
 .back {
-  width: 309px;
-  height: 61px;
   background: #0F0049;
   border-radius: 5px;
   border: #0F0049;
@@ -224,4 +227,89 @@ body {
 
 .h-56 {
   height: 56px;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .M-normal-bold-36-145-c {
+    font-size: 28px;
+    line-height: 145%;
+  }
+
+  .R-normal-normal-24-154-c {
+    font-size: 18px;
+  }
+
+  .R-normal-500-18-21-c {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .main {
+    width: 1200px;
+  }
+
+  .mt-20 {
+    margin-top: 60px;
+  }
+
+  .mt-116 {
+    margin-top: 98px;
+  }
+
+  .mt-50 {
+    margin-top: 40px;
+  }
+
+  .er404 {
+    width: 238px;
+    height: 107px;
+    left: 206px;
+  }
+
+  .w-900 {
+    width: 832px;
+  }
+
+  .h-507 {
+    height: 469px;
+  }
+
+  .w-309 {
+    width: 261px;
+  }
+
+  .h-61 {
+    height: 51px;
+  }
+
+  .w-867 {
+    width: 651px;
+  }
+
+  .h-74 {
+    height: 56px;
+  }
+
+  .h-56 {
+    height: 50px;
+  }
+
+  .header {
+    width: 1120px;
+    height: 70px;
+  }
+
+  .logo {
+    width: 41.5px;
+  }
+
+  .user {
+    width: 42px;
+  }
+
+  .h-52 {
+    height: 42px;
+  }
+
 }
