@@ -62,3 +62,12 @@ body {
   }
 
 }
+
+
+@media screen and (max-device-width: 320px) , screen and (max-width: 320px) {
+
+  body {
+    margin-top: 0;
+  }
+
+}

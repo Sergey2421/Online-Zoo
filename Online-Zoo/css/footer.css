@@ -425,3 +425,151 @@
   }
 
 }
+
+@media screen and (max-device-width: 320px) , screen and (max-width: 320px) {
+
+  .fs-185_ln-154 {
+    font-size: 14px;
+  }
+
+  .footer {
+    width: 320px;
+    height: 777px;
+  }
+
+  .w-1434 {
+    width: 300px;
+  }
+
+  .h-132 {
+    height: 80px;
+  }
+
+  .mt-150 {
+    margin-top: 36px;
+  }
+
+  .copyright {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  .p_copyright {
+    font-size: 11px;
+  }
+
+  .foot_up {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    flex-wrap: wrap;
+  }
+
+  .w-303 {
+    width: 84px;
+  }
+
+  .w-153 {
+    width: 60px;
+  }
+
+  .h-117 {
+    height: 47px;
+  }
+
+  .w-118 {
+    width: 80px;
+    height: 42px;
+  }
+
+  .w-128 {
+    width: 84px;
+  }
+
+  .h-47 {
+    height: 31px;
+  }
+
+  .mt-192 {
+    margin-top: 98px;
+  }
+
+  .school {
+    width: 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .donate {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .h-62 {
+    height: 132px;
+  }
+
+  .a_sup {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .h2_foot {
+    font-size: 18px;
+    line-height: 21px;
+    width: 109px;
+  }
+
+  .foot_nav {
+    width: 109px;
+    margin-left: 76px;
+  }
+
+  .a_nav {
+    font-size: 14px;
+    height: 22px;
+  }
+
+  .mt-30 {
+    margin-top: 21px;
+  }
+
+  .mt-40 {
+    margin-top: 25px;
+  }
+
+  .sup {
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  .links {
+    margin-top: 37px;
+    width: 300px;
+  }
+
+  .w-339 {
+    width: 300px;
+  }
+
+  .h-61 {
+    height: 57px;
+  }
+
+  .w-332 {
+    width: 300px;
+  }
+
+  .h-84 {
+    height: 66px;
+  }
+
+  .mt-43 {
+    margin-top: 30px;
+  }
+
+}
