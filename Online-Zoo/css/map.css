@@ -1,0 +1,219 @@
+body {
+  background: url("assets/map2.png") no-repeat;
+}
+
+.main {
+  width: 1920px;
+}
+
+.box {
+  position: absolute;
+  left: 583px;
+  top: 240px;
+  height: 512px;
+  box-shadow: 4px 12px 22px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+  overflow: hidden;
+  background: #FCFCFC;
+}
+
+.flex_column_a-c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.w-344 {
+  width: 344px;
+}
+
+.h-218 {
+  height: 218px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.w-264 {
+  width: 264px;
+}
+
+.mt-52 {
+  margin-top: 52px;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.watch_now {
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #3888FF;
+}
+
+.fs-18_ln-21 {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.td-none {
+  text-decoration: none;
+}
+
+.M-normal-bold {
+  font-family: Merriweather, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.fs-36_ln-145 {
+  font-size: 36px;
+  line-height: 145%;
+}
+
+.color-darkpurple {
+  color: #080029;
+}
+
+.R-normal-normal {
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.color-gray {
+  color: #747474;
+}
+
+.fs-185_ln-154 {
+  font-size: 18.5px;
+  line-height: 154%;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.marks {
+  position: absolute;
+  width: 82px;
+  height: 106px;
+}
+
+.markers {
+  filter: drop-shadow(1px 12px 20px rgba(0, 0, 0, 0.17));
+  width: 100%;
+  overflow: visible;
+  transition: transform 0.25s ;
+}
+
+.mark-crocodile {
+  left: 251px;
+  top: 205px;
+}
+
+.mark-eagle {
+  left: -100px;
+  top: -100px;
+}
+
+.mark-gorilla {
+  left: 949px;
+  top: 449px;
+}
+
+.mark-panda {
+  left: 1628px;
+  top: 247px;
+}
+
+.markers:hover {
+  transform: scale(1.392) translateY(-17.5px);
+  transition: transform 0.25s ;
+  cursor: pointer;
+}
+
+.markers:hover .stroke {
+  stroke: #3888FF;
+  stroke-width: 2px;
+}
+
+.active {
+  transform: scale(1.392) translateY(-17.5px);
+  transition: transform 0.25s ;
+  cursor: pointer;
+}
+
+.active .stroke{
+  stroke: #3888FF;
+  stroke-width: 2px;
+}
+
+.none {
+  display: none;
+}
+/*
+
+.h-862 {
+  height: 862px;
+}
+
+.ml-244 {
+  margin-left: 244px;
+}
+
+.color-black {
+  color: black;
+}
+
+
+
+
+
+
+
+.fs-22 {
+  font-size: 22px;
+}
+
+
+
+.w-1223 {
+  width: 1223px;
+}
+
+.h-700 {
+  height: 700px;
+}
+
+.ml-24 {
+  margin-left: 24px;
+}
+
+
+
+
+*/

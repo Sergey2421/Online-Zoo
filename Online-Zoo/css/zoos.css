@@ -1,0 +1,184 @@
+.w-1064 {
+  width: 1064px;
+}
+
+.br-5 {
+  border-radius: 5px;
+}
+
+.h-600 {
+  height: 600px;
+}
+
+.mt-71 {
+  margin-top: 70px;
+}
+
+.w-1616 {
+  width: 1616px;
+}
+
+.w-40 {
+  width: 40px;
+}
+
+.main {
+  width: 1800px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.panda_avatar {
+  box-sizing: border-box;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  overflow: hidden;
+}
+
+.flex_row_sb_fs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.nickname {
+  font-size: 24px;
+  line-height: 28px;
+  color: #0B0B0B;
+}
+
+.bs-bb {
+  box-sizing: border-box;
+}
+
+.w-420 {
+  width: 420px;
+}
+
+.w-305 {
+  width: 305px;
+}
+
+.h-110 {
+  height: 110px;
+}
+
+.h-56 {
+  height: 56px;
+}
+
+.flex_row_a-fs {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.flex_row_fs_fs {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.mt-7 {
+  margin-top: 7px;
+}
+
+.mt-3 {
+  margin-top: 3px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.ml-40 {
+  margin-left: 40px;
+}
+
+.line {
+  border-bottom: 1px solid #E3E3E3;
+}
+
+.h4 {
+  font-family: Merriweather, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 145%;
+  color: #080029;
+}
+
+.R-normal-normal {
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.fs-185_ln-154 {
+  font-size: 18.5px;
+  line-height: 154%;
+}
+
+.color-gray {
+  color: #747474;
+}
+
+.w-336 {
+  width: 336px;
+}
+
+.w-284 {
+  width: 284px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.R-normal-500 {
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.fs-18_ln-21 {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.color-white {
+  color: #FCFCFC;
+}
+
+.b-2_solid {
+  border: 2px solid;
+}
+
+.btn_try:hover {
+  cursor: pointer;
+  border-color: #080029;
+  background-color: #080029;
+}
+
+.btn_try:active {
+  outline: none;
+  background-color: #150068;
+  border-color: #150068;
+}
+
+.btn_try {
+  background-color: #0F0049;
+  border-color: #0F0049;
+}
