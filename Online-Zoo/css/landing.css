@@ -524,15 +524,6 @@
   box-sizing: border-box;
 }
 
-.picture {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  overflow: hidden;
-  border-radius: 5px;
-}
-
 .w-100 {
   width: 100%;
 }
@@ -885,5 +876,18 @@
   width: 332px;
   height: 84px;
   color: #BCBCBC;
+}
+
+.picture.visible {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.picture {
+  display: none;
 }
 
