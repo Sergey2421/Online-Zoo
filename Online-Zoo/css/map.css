@@ -8,13 +8,26 @@ body {
 
 .box {
   position: absolute;
-  left: 583px;
-  top: 240px;
   height: 512px;
   box-shadow: 4px 12px 22px rgba(0, 0, 0, 0.06);
   border-radius: 15px;
   overflow: hidden;
   background: #FCFCFC;
+}
+
+.box-gorilla {
+  left: 583px;
+  top: 240px;
+}
+
+.box-panda {
+  left: 1260px;
+  top: 170px;
+}
+
+.box-crocodile {
+  left: 360px;
+  top: 155px;
 }
 
 .flex_column_a-c {
@@ -175,6 +188,11 @@ body {
 .none {
   display: none;
 }
+
+.box.invisible {
+  display: none !important;
+}
+
 /*
 
 .h-862 {

@@ -703,12 +703,6 @@
   text-decoration: none;
 }
 
-.review {
-  height: 273px;
-  background: #FCFCFC;
-  border-radius: 15px;
-}
-
 .mt-20 {
   margin-top: 20px;
 }
@@ -891,3 +885,16 @@
   display: none;
 }
 
+.review.invisible {
+  display: none !important;
+}
+
+.review {
+  height: 273px;
+  background: #FCFCFC;
+  border-radius: 15px;
+}
+
+.box.invisible {
+  display: none !important;
+}
