@@ -506,3 +506,7 @@
 .maxw-1381 {
   max-width: 1381px;
 }
+
+.camera {
+  cursor: pointer;
+}
