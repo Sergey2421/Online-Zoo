@@ -510,3 +510,7 @@
 .camera {
   cursor: pointer;
 }
+
+.color-blue {
+  color: #609FFF;
+}

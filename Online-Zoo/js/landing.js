@@ -11,17 +11,9 @@ let offset = carousel.length / 2;
 let first = 0;
 let last = offset - 1;
 let delay = 10000;
-let click = false;
 
 function auto() {
     delay = 10000;
-    if (click) {
-        clearTimeout(timerId);
-        delay *= 2;
-        click = false;
-        timerId = setTimeout(auto, delay);
-        return;
-    }
 
     carousel2.firstElementChild.classList.add('invisible');
     carousel2.lastElementChild.previousElementSibling.classList.remove('invisible');
@@ -88,6 +80,7 @@ prev2.addEventListener('click', () => {
     carousel2.firstElementChild.classList.add('invisible');
     carousel2.lastElementChild.previousElementSibling.classList.remove('invisible');
     carousel2.appendChild(carousel2.firstElementChild);
+    delay = 10000;
     clearTimeout(timerId);
     delay *= 2;
     timerId = setTimeout(auto, delay);
@@ -96,11 +89,15 @@ next2.addEventListener('click', () => {
     carousel2.children[1].classList.add('invisible');
     carousel2.lastElementChild.classList.remove('invisible');
     carousel2.insertBefore(carousel2.lastElementChild, carousel2.firstElementChild);
+    delay = 10000;
     clearTimeout(timerId);
     delay *= 2;
     timerId = setTimeout(auto, delay);
 });
 reviews.forEach((elem) => elem.addEventListener('click', () => {
-    click = true;
+    delay = 10000;
+    clearTimeout(timerId);
+    delay *= 2;
+    timerId = setTimeout(auto, delay);
 }));
 markers.forEach((elem) => elem.addEventListener('click', () => ChangeMark(elem)));
