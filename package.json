@@ -1,0 +1,25 @@
+{
+  "name": "online-zoo",
+  "version": "1.0.0",
+  "description": "Private repository for @sergey2421",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/sergey2421-JSFE2021Q1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/sergey2421-JSFE2021Q1/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/sergey2421-JSFE2021Q1#readme"
+}
